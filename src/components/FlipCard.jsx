@@ -1,4 +1,3 @@
-// FlipCard.jsx
 import React from 'react';
 import styles from '../styles/flip-card.module.css';
 
