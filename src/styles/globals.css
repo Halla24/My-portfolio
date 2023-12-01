@@ -41,3 +41,21 @@ body {
 .animate-tech-stack {
   animation: moveTechStack 2s infinite;
 }
+
+
+
+/* Add this to your styles */
+.hover-overlay {
+  background: rgba(255, 255, 255, 0.5); /* Adjust the transparency here */
+  backdrop-filter: blur(8px);
+  color: #fff; /* Adjust text color for better visibility */
+  padding: 10px; /* Add padding for better visibility */
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.relative:hover .hover-overlay {
+  opacity: 1;
+}
+

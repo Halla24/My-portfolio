@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import HeaderCard from '../components/HeaderCard';
 import TechStack from '../components/TechStack';
+import ProjectCard from '../components/ProjectCard';
 
 function Home() {
   return (
@@ -17,6 +18,10 @@ function Home() {
       What can i use ?
         </p>
       <TechStack />
+      <p className="text-3xl text-center text-black font-bold">
+      My <span className="text-green-700">Projects</span>
+        </p>
+      <ProjectCard />
     </div>
   );
 }
