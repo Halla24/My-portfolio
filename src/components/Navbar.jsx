@@ -37,9 +37,9 @@ const Navbar = ({ aboutRef, techRef, projectRef, contactRef }) => {
   ];
 
   return (
-    <div className='bg-purple-200 flex justify-between items-center h-16 max-w-full mx-auto px-4 text-green-600 font-rubik '>
+    <div className='bg-purple-200 flex justify-between items-center h-16 max-w-full mx-auto px-4 text-purple-800 font-serif italic '>
       <img
-        src="/logo.svg"
+        src="/logo.png"
         alt='Logo'
         className='w-20 h-50 object-contain mr-2 transform rotate-1'
         style={{ imageRendering: 'pixelated' }}
@@ -49,7 +49,7 @@ const Navbar = ({ aboutRef, techRef, projectRef, contactRef }) => {
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 hover:bg-green-200 rounded-xl m-2 cursor-pointer duration-300 hover:text-black text-xl font-semibold'
+            className='p-4 hover:bg-purple-300 rounded-xl m-2 cursor-pointer duration-300 hover:text-black text-xl font-semibold'
             onClick={() => scrollToRef(getRefByName(item.text))}
           >
             {item.text}
@@ -78,7 +78,7 @@ const Navbar = ({ aboutRef, techRef, projectRef, contactRef }) => {
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 border-b rounded-xl hover:bg-green-200 duration-300 hover:text-black cursor-pointer border-gray-600 text-xl font-semibold'
+            className='p-4 border-b rounded-xl hover:bg-purple-300 duration-300 hover:text-black cursor-pointer border-gray-600 text-xl font-semibold'
             onClick={() => {
               scrollToRef(getRefByName(item.text));
               handleNav();

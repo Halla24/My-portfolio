@@ -17,7 +17,7 @@ const ProjectCard = ({ title, imageSrc, projectLink }) => {
           <div className="bg-gray-800 bg-opacity-50 w-full h-full absolute inset-0"></div>
           <div className="text-white absolute z-10">
             <div
-              className="bg-[#2B5D03] hover:bg-green-500 text-white px-4 py-2 rounded-md transition-all duration-300 transform hover:scale-105"
+              className="bg-[#4B2499] hover:bg-purple-400 text-white px-4 py-2 rounded-md transition-all duration-300 transform hover:scale-105"
               onClick={openProjectLink}
             >
               Check the Project

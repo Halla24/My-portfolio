@@ -42,7 +42,7 @@ function Home() {
       />
       <div ref={aboutRef} className="text-center mt-20 mb-40 font-serif italic">
         <p className="text-6xl text-black font-bold">
-          {visibleText.slice(0, 0)} <span className="text-green-700">{visibleText.slice(0, 14)}</span>{visibleText.slice(15)}
+          {visibleText.slice(0, 0)} <span className="text-purple-900">{visibleText.slice(0, 14)}</span>{visibleText.slice(15)}
         </p>
       </div>
       <HeaderCard />
@@ -51,7 +51,7 @@ function Home() {
       </p>
       <TechStack />
       <p ref={projectRef} className="text-5xl text-center text-black font-bold mt-20 font-serif italic">
-        My <span className="text-green-700">Projects</span>
+        My <span className="text-purple-800">Projects</span>
       </p>
       <ProjectCard />
       <Languages />
