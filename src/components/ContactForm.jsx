@@ -46,7 +46,7 @@ const ContactForm = () => {
         <div className="text-green-500 text-center font-bold mb-4">Form successfully sent!</div>
       ) : (
         <>
-          <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
+          <h2 className="text-20xl font-bold mb-4 border-gray-300 rounded-md text-gray-800">Contact Me</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label htmlFor="name" className="block text-sm font-medium text-gray-600">
