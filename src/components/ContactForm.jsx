@@ -13,7 +13,6 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Add form validation if needed
 
     setSubmitting(true);
 

@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-purple-200 flex justify-between items-center h-60 max-w-full mx-auto px-4 text-green-700 font-rubik">
+    <footer className="bg-purple-200 flex justify-between items-center h-60 max-w-full mx-auto px-4 text-green-700 font-serif italic">
       {/* Left side with logo and sentence */}
       <div className="flex items-start mb-[-5px]">
         <img src="logo.svg" alt="Logo" className="max-w-[300px]" />
