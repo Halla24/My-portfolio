@@ -23,6 +23,9 @@ function Home() {
       My <span className="text-green-700">Projects</span>
         </p>
       <ProjectCard />
+      <p className="text-5xl text-center text-black font-bold">
+      or <span className="text-green-700">Contact me</span> 
+        </p>
       <ContactForm />
     </div>
   );
