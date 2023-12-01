@@ -1,9 +1,18 @@
+/* flip-card.module.css */
 .flip-card {
     width: 400px;
     height: 400px;
     perspective: 1000px;
   }
 
+  @media only screen and (max-width: 640px){
+
+    .flip-card {
+      width: 200px;
+      height: 200px;
+      perspective: 1000px;
+    }
+}
   .flip-card-inner {
     width: 100%;
     height: 100%;

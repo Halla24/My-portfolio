@@ -6,7 +6,7 @@ import FlipCard from './FlipCard';
 export default function HeaderCard() {
   return (
     <div className="flex flex-col items-center justify-center my-8 max-w-screen-xl mx-auto">
-      <div className="flex flex-row items-center justify-center gap-8 w-full md:w-[777px] lg:w-[960px] xl:w-[1222px]">
+      <div className="flex sm:flex-row sm:items-center flex-col-reverse sm:justify-center gap-8 w-full md:w-[777px] lg:w-[960px] xl:w-[1222px]">
         <div className="flex flex-col justify-center items-start gap-6 w-full" style={{ wordWrap: 'break-word' }}>
           <h5 className="text-[#1A1A1A] md:text-[32px] sm:text-[24px] text-[10px] lg:text-[48px] sm:leading-[32px] sm:tracking-[0.11px] font-[500] lg:leading-[44px] lg:tracking-[0.18px] break-words font-serif italic">
             About me
