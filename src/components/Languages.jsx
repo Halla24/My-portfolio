@@ -2,9 +2,9 @@ import React from 'react';
 
 const Languages = () => {
   return (
-    <div className="text-center mt-20">
-      <h2 className="text-5xl text-black font-serif italic font-bold mb-8">Languages</h2>
-      <div className="flex justify-center items-center">
+    <div className="text-center mt-10 md:mt-20">
+      <h2 className="text-5xl md:text-6xl text-black font-serif italic font-bold mb-8">My Languages</h2>
+      <div className="flex flex-wrap justify-center items-center">
         <div className="flag-container">
           <img
             src="./language/languages.png"

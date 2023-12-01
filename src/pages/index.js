@@ -42,7 +42,7 @@ function Home() {
       />
       <div className= "min-h-screen">
       <div ref={aboutRef} className="text-center mt-20 mb-40 font-serif italic">
-        <p className="text-6xl text-black font-bold">
+        <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-black font-bold">
           {visibleText.slice(0, 0)} <span className="text-purple-900">{visibleText.slice(0, 14)}</span>{visibleText.slice(15)}
         </p>
       </div>
