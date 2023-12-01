@@ -12,17 +12,17 @@ const Footer = () => {
 
       {/* Right side with social icons */}
       <div className="flex items-center">
-        <a href="your-github-link" className="text-green-700 mr-4">
+        <a href="https://github.com/Halla24" className="text-green-700 mr-4">
           <FaGithub size={30} />
         </a>
-        <a href="your-linkedin-link" className="text-green-700 mr-4">
+        <a href="https://www.linkedin.com/in/halla-hamidi-989197229/" className="text-green-700 mr-4">
           <FaLinkedin size={30} />
         </a>
-        <a href="your-gmail-link" className="text-green-700">
+        <a href="aniabisso.16@gmail.com" className="text-green-700">
           <FaEnvelope size={30} />
         </a>
       </div>
- 
+
     </footer>
   );
 };
