@@ -40,6 +40,7 @@ function Home() {
         projectRef={projectRef}
         contactRef={contactRef}
       />
+      <div className= "min-h-screen">
       <div ref={aboutRef} className="text-center mt-20 mb-40 font-serif italic">
         <p className="text-6xl text-black font-bold">
           {visibleText.slice(0, 0)} <span className="text-purple-900">{visibleText.slice(0, 14)}</span>{visibleText.slice(15)}
@@ -57,6 +58,7 @@ function Home() {
       <Languages />
       <div ref={contactRef} className="mt-20">
         <ContactForm />
+      </div>
       </div>
       <Footer />
     </div>
