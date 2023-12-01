@@ -1,4 +1,3 @@
-// pages/index.js
 import React, { useRef, useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import HeaderCard from '../components/HeaderCard';
@@ -6,6 +5,7 @@ import TechStack from '../components/TechStack';
 import ProjectCard from '../components/ProjectCard';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
+import Languages from '../components/Languages'
 
 function Home() {
   const aboutRef = useRef(null);
@@ -54,6 +54,7 @@ function Home() {
         My <span className="text-green-700">Projects</span>
       </p>
       <ProjectCard />
+      <Languages />
       <div ref={contactRef} className="mt-20">
         <ContactForm />
       </div>

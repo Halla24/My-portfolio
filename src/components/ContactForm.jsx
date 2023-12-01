@@ -40,15 +40,22 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-8 p-4 md:p-8 bg-white rounded-lg shadow-lg">
+    <div
+    className="max-w-md mx-auto mt-8 p-4 md:p-8 bg-white rounded-lg shadow-lg"
+    style={{
+      backgroundImage: `url('./purple.jpg')`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}
+  >
       {formSuccess ? (
         <div className="text-green-500 text-center font-bold mb-4">Form successfully sent!</div>
       ) : (
         <>
-          <h2 className="text-20xl font-bold mb-4 border-gray-300 rounded-md text-gray-800 font-serif italic">Contact Me</h2>
+          <h2 className="text-20xl font-bold mb-4 border-gray-300 rounded-md text-green-400 font-serif italic">Contact Me</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label htmlFor="name" className="block text-sm font-medium text-gray-600 font-serif italic">
+              <label htmlFor="name" className="block text-sm font-medium text-green-400 font-serif italic">
                 Name
               </label>
               <input
@@ -61,7 +68,7 @@ const ContactForm = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="email" className="block text-sm font-medium text-gray-600 font-serif italic">
+              <label htmlFor="email" className="block text-sm font-medium text-green-400 font-serif italic">
                 Email
               </label>
               <input
@@ -74,7 +81,7 @@ const ContactForm = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-sm font-medium text-gray-600 font-serif italic">
+              <label htmlFor="message" className="block text-sm font-medium text-green-400 font-serif italic">
                 Message
               </label>
               <textarea
