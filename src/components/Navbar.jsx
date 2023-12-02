@@ -37,7 +37,7 @@ const Navbar = ({ aboutRef, techRef, projectRef, contactRef }) => {
   ];
 
   return (
-    <div className="bg-purple-200 flex justify-between items-center h-16 max-w-full mx-auto px- text-purple-800 font-serif italic ">
+    <div className="bg-purple-200 z-[9999] flex justify-between items-center h-16 max-w-full mx-auto px- text-purple-800 font-serif italic ">
       <div className="flex overflow-hidden justify-center items-center h-full">
         <img
           src="/logo.svg"
@@ -66,7 +66,7 @@ const Navbar = ({ aboutRef, techRef, projectRef, contactRef }) => {
       <ul
         className={
           nav
-            ? "fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-purple-200 ease-in-out duration-500"
+            ? "fixed md:hidden z-[999] left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-purple-200 ease-in-out duration-500"
             : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]"
         }
       >
