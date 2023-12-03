@@ -15,11 +15,11 @@ export default function HeaderCard() {
             As a passionate Frontend Web Developer, I specialize in creating engaging digital experiences using HTML, CSS, JavaScript, Next.js, and React. I have a proven track record of building various websites that captivate users. Furthermore, I freelance as a translator for multiple languages, including Turkish, English, French, Chinese, and more.
           </p>
           <Link href="/My-CV.pdf" passHref>
-            <button
-              className="text-center bg-[#4B2499] hover:bg-purple-500 w-full sm:w-[120px] h-[30px] sm:text-[13px] text-[10px] rounded-[4px] text-white lg:text-[18px]font-serif italic "
+          <button
+         className="text-center bg-[#4B2499] hover:bg-purple-500 w-[80px] h-[20px] sm:text-[13px] text-[10px] rounded-[20px] text-white lg:text-[18px] font-serif italic sm:font-normal sm:w-[120px] sm:h-[40px] md:w-[180px] md:h-[50px] lg:w-[150px] lg:h-[60px] xl:w-[220px] xl:h-[70px]"
             >
-              More
-            </button>
+        More
+      </button>
           </Link>
         </div>
         <div className="flex items-center justify-center">

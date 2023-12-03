@@ -62,6 +62,7 @@ function Home() {
         <ContactForm />
       </div>
       </div>
+      <div className="mt-8"></div>
       <Footer />
     </div>
   );

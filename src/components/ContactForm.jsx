@@ -41,7 +41,7 @@ const ContactForm = () => {
 
   return (
     <div
-    className="max-w-md mx-auto mt-8 p-4 md:p-8 bg-white rounded-lg shadow-lg"
+    className="max-w-md mx-auto mt-8 p-4  md:p-8 bg-white rounded-lg shadow-lg"
     style={{
       backgroundImage: `url('./purple.jpg')`,
       backgroundSize: 'cover',
@@ -49,7 +49,7 @@ const ContactForm = () => {
     }}
   >
       {formSuccess ? (
-        <div className="text-purple-400 text-center font-bold mb-4">Form successfully sent!</div>
+        <div className="text-purple-200 text-center font-bold mb-8 font-serif italic">Form successfully sent!</div>
       ) : (
         <>
           <h2 className="text-20xl font-bold mb-4 border-gray-300 rounded-md text-purple-100 font-serif italic">Contact Me</h2>
