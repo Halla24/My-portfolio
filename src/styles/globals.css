@@ -149,7 +149,7 @@ body {
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
   animation: fly 10s infinite linear;
-  animation-delay: 10s;
+  animation-delay: 1s;
 }
 
 
