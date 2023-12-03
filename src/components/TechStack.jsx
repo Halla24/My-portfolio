@@ -40,6 +40,7 @@ const TechStack = () => {
         <div className="w-14 md:w-16 lg:w-20 animate-tech-stack">
           <img src="./tech/tailwind.png" alt="tailwind css" />
         </div>
+        
       </div>
     </div>
   );

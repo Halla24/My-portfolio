@@ -6,6 +6,7 @@ import ProjectCard from '../components/ProjectCard';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
 import Languages from '../components/Languages'
+import ButterflyAnimation from '../components/ButterflyAnimation';
 
 function Home() {
   const aboutRef = useRef(null);
@@ -40,6 +41,7 @@ function Home() {
         projectRef={projectRef}
         contactRef={contactRef}
       />
+       <ButterflyAnimation />
       <div className= "min-h-screen">
       <div ref={aboutRef} className="text-center mt-20 mb-40 font-serif italic">
         <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-black font-bold">
