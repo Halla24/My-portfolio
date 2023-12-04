@@ -22,6 +22,9 @@ const ProjectCard = ({ title, imageSrc, projectLink }) => {
             >
               Check the Project
             </div>
+            <div className="text-purple-200 font-serif italic mt-8">
+              Next.JS / Tailwind Css
+            </div>
           </div>
         </div>
       </div>
