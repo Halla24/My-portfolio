@@ -17,7 +17,7 @@ function Home() {
   const [visibleText, setVisibleText] = useState('');
 
   useEffect(() => {
-    const text = ["Hi,", "I", "am", "Halla", "Hamidi,", "a", "Frontend", "Web", "Developer"];
+    const text = ["Hi,", "I", "am", "Halla", " ", "Hamidi,", "a", "Frontend", "Web", "Developer"];
     let currentIndex = 0;
 
     const intervalId = setInterval(() => {

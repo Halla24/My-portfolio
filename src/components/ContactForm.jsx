@@ -81,7 +81,7 @@ const ContactForm = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-sm font-medium text-purple-200 font-serif italic">
+              <label htmlFor="message" className="block text-sm font-medium text-purple-100 font-serif italic">
                 Message
               </label>
               <textarea
