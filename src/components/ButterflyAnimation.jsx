@@ -1,18 +1,28 @@
-// ButterflyAnimation.jsx
-import React from 'react';
-
+import React from "react";
 
 const ButterflyAnimation = () => {
   return (
-    <div className="stage">
-      {[...Array(3)].map((_, index) => (
-        <div className="mariposa" key={index}>
+    <>
+      <div className="stage pointer-events-none">
+        <div className="mariposa">
           <div className="mariposa-turn">
             <div className="mariposa-flutter"></div>
           </div>
         </div>
-      ))}
-    </div>
+
+        <div className="mariposa">
+          <div className="mariposa-turn">
+            <div className="mariposa-flutter"></div>
+          </div>
+        </div>
+
+        <div className="mariposa">
+          <div className="mariposa-turn">
+            <div className="mariposa-flutter"></div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

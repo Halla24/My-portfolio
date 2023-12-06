@@ -122,7 +122,7 @@ body {
 }
 
 /* ButterflyAnimation.module.css */
-.stage {
+/* .stage {
   position: fixed;
   top: 0;
   left: 0;
@@ -262,4 +262,4 @@ body {
   100% {
     transform: translateY(-70vh);
   }
-}
+} */

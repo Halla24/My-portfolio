@@ -37,7 +37,7 @@ const Navbar = ({ aboutRef, techRef, projectRef, contactRef }) => {
   ];
 
   return (
-    <div className="bg-purple-200 z-[9999] flex justify-between items-center h-16 max-w-full mx-auto px- text-purple-800 font-serif italic ">
+    <div className="bg-purple-200 z-[9999] flex justify-between items-center h-16 max-w-full mx-auto px- text-purple-800 font-serif  ">
       <div className="flex overflow-hidden justify-center items-center h-full">
         <img
           src="/logo.svg"

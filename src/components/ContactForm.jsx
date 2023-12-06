@@ -49,13 +49,13 @@ const ContactForm = () => {
     }}
   >
       {formSuccess ? (
-        <div className="text-purple-200 text-center font-bold mb-8 font-serif italic">Form successfully sent!</div>
+        <div className="text-purple-200 text-center font-bold mb-8 font-serif ">Form successfully sent!</div>
       ) : (
         <>
-          <h2 className="text-20xl font-bold mb-4 border-gray-300 rounded-md text-purple-100 font-serif italic">Contact Me</h2>
+          <h2 className="text-20xl font-bold mb-4 border-gray-300 rounded-md text-purple-100 font-serif ">Contact Me</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label htmlFor="name" className="block text-sm font-medium text-purple-200 font-serif italic">
+              <label htmlFor="name" className="block text-sm font-medium text-purple-200 font-serif ">
                 Name
               </label>
               <input
@@ -64,11 +64,11 @@ const ContactForm = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="mt-1 p-2 w-full border border-gray-300 rounded-md text-purple-800 font-serif italic"
+                className="mt-1 p-2 w-full border border-gray-300 rounded-md text-purple-800 font-serif "
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="email" className="block text-sm font-medium text-purple-300 font-serif italic">
+              <label htmlFor="email" className="block text-sm font-medium text-purple-300 font-serif ">
                 Email
               </label>
               <input
@@ -77,11 +77,11 @@ const ContactForm = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="mt-1 p-2 w-full border border-gray-300 rounded-md text-purple-800 font-serif italic"
+                className="mt-1 p-2 w-full border border-gray-300 rounded-md text-purple-800 font-serif "
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-sm font-medium text-purple-100 font-serif italic">
+              <label htmlFor="message" className="block text-sm font-medium text-purple-100 font-serif ">
                 Message
               </label>
               <textarea
@@ -90,13 +90,13 @@ const ContactForm = () => {
                 value={formData.message}
                 onChange={handleChange}
                 rows="4"
-                className="mt-1 p-2 w-full border border-gray-300 rounded-md text-purple-800 font-serif italic"
+                className="mt-1 p-2 w-full border border-gray-300 rounded-md text-purple-800 font-serif "
               />
             </div>
             <button
               type="submit"
               disabled={submitting}
-              className="bg-purple-800 text-white font-serif italic px-4 py-2 rounded-md hover:bg-purple-500 transition-colors duration-300 w-full"
+              className="bg-purple-800 text-white font-serif  px-4 py-2 rounded-md transition-colors duration-300 w-full"
             >
               {submitting ? 'Submitting...' : 'Submit'}
             </button>

@@ -17,12 +17,12 @@ const ProjectCard = ({ title, imageSrc, projectLink }) => {
           <div className="bg-gray-800 bg-opacity-50 w-full h-full absolute inset-0"></div>
           <div className="text-white absolute z-10">
            <div
-           className="bg-[#4B2499] hover:bg-purple-400 text-white font-serif italic px-4 py-2 rounded-md transition-all duration-300 transform hover:scale-105 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl"
+           className="bg-[#4B2499]  text-white font-serif  px-4 py-2 rounded-md transition-all duration-300 transform hover:scale-105 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl"
            onClick={openProjectLink}
            >
           Check the Project
          </div>
-         <div className="text-purple-200 font-serif italic mt-4 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
+         <div className="text-purple-200 font-serif  mt-4 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
            Next.JS / Tailwind CSS
            </div>
           </div>
