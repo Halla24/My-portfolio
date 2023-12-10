@@ -1,16 +1,18 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-const ProjectCard = ({ title, imageSrc, projectLink }) => {
+const ProjectCard = ({ title, imageSrc, projectLink, description }) => {
   const [isHovered, setIsHovered] = useState(false);
   const openProjectLink = () => {
     window.location.href = projectLink;
   };
 
   return (
-    <motion.div className="mb-8"
+    <motion.div
+      className="mb-8"
       onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}>
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <div className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer">
         <div className="group">
           <img
@@ -23,7 +25,8 @@ const ProjectCard = ({ title, imageSrc, projectLink }) => {
             <div className="text-white flex flex-col items-center absolute z-10">
               <div
                 className="bg-[#4B2499] hover:bg-[#4B2499] w-[70%] text-white font-serif text-center self-center rounded-md transition-all duration-300 transform hover:scale-105 text-sm sm:text-base md:text-md"
-                onClick={openProjectLink}>
+                onClick={openProjectLink}
+              >
                 Check the Project
               </div>
               <div className="text-purple-200 font-serif  mt-4 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
@@ -35,19 +38,9 @@ const ProjectCard = ({ title, imageSrc, projectLink }) => {
       </div>
       <motion.div
         animate={{ height: isHovered ? 200 : 0 }}
-        className=" text-purple-600 font-serif overflow-y-scroll">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-        accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-        molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-        officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-        nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-        error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis
-        modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias
-        error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt
-        dolorem! Officiis iure rerum voluptates a cumque velit
+        className=" text-[#ba76bfed] bg-purple-200 font-serif overflow-y-scroll"
+      >
+        {description}
       </motion.div>
     </motion.div>
   );
@@ -60,24 +53,27 @@ const Projects = () => {
         <div className="flex flex-wrap items-center justify-center gap-8">
           <div className="w-96 mobileWidth">
             <ProjectCard
-              title="Movies website"
+              title="Movies Website"
               imageSrc="./project1.png"
               projectLink="https://reelio-topaz.vercel.app/"
+              description="A dynamic platform showcasing a collection of movies. Utilizes Next.js for server-side rendering, ensuring fast load times. Tailwind CSS enhances the site's responsiveness, while the project employs API integration for fetching movie data."
             />
           </div>
           <div className="w-96 mobileWidth">
             <ProjectCard
-              title="E-commerce website"
+              title="E-commerce Website"
               imageSrc="./project2.png"
               projectLink="https://sougna.vercel.app/"
+              description="An engaging e-commerce platform crafted with Next.js and Tailwind CSS. Integrates Firebase for seamless user authentication, secure transactions, and dynamic product management. Enjoy a smooth shopping experience with responsive design and real-time updates."
             />
           </div>
         </div>
         <div className="flex mx-auto mobileWidth items-center w-96 justify-center">
           <ProjectCard
-            title="Volunteer events website"
+            title="Volunteer Events Website"
             imageSrc="./project3.png"
             projectLink="https://pebble-work.vercel.app/"
+            description="Connects volunteers with meaningful opportunities. Built using Next.js and Tailwind CSS, this project leverages Firebase for efficient data storage and retrieval. The site provides an intuitive interface for users to discover and engage in various volunteer events, fostering a sense of community and social impact."
           />
         </div>
       </div>
