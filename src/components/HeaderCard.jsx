@@ -18,7 +18,7 @@ export default function HeaderCard() {
           <button
          className="text-center bg-[#4B2499] w-[80px] h-[20px] sm:text-[13px] text-[10px] rounded-[20px] text-white lg:text-[18px] font-serif sm:font-normal sm:w-[80px] sm:h-[30px] md:w-[100px] md:h-[40px] lg:w-[120px] lg:h-[50px] xl:w-[150px] xl:h-[60px] mt-4"
             >
-        More
+        download my CV
       </button>
           </Link>
         </div>

@@ -55,7 +55,7 @@ function Home() {
         />
         <ButterflyAnimation />
         <div className="min-h-screen">
-          <div ref={aboutRef} className="text-center mt-20 mb-40 font-serif ">
+          <div ref={aboutRef} className="text-center mt-20 mb-20 font-serif ">
             <p className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-black font-bold">
               {visibleText.slice(0, 0)}{" "}
               <span className="text-purple-900">
@@ -67,7 +67,7 @@ function Home() {
           <HeaderCard />
           <p
             ref={techRef}
-            className="text-[30px] text-center mt-32 text-black font-bold font-serif "
+            className="text-[30px] text-center mt-20 text-black font-bold font-serif "
           >
             My tech stack
           </p>

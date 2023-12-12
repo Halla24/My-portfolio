@@ -56,7 +56,7 @@ const Projects = () => {
               title="Movies Website"
               imageSrc="./project1.png"
               projectLink="https://reelio-topaz.vercel.app/"
-              description="A dynamic platform showcasing a collection of movies. Utilizes Next.js for server-side rendering, ensuring fast load times. Tailwind CSS enhances the site's responsiveness, while the project employs API integration for fetching movie data."
+              description={`Dive into the immersive world of cinema with our Movies Website! This dynamic platform offers a vast collection of movies across genres and eras. Powered by Next.js, it ensures efficient server-side rendering for lightning-fast load times. Tailwind CSS enhances the visual appeal and responsiveness, providing a seamless user experience. The integration of APIs brings real-time movie data, keeping the content fresh and engaging. Explore, discover, and enjoy the magic of storytelling through the lens of this cutting-edge platform.`}
             />
           </div>
           <div className="w-96 mobileWidth">
@@ -64,7 +64,7 @@ const Projects = () => {
               title="E-commerce Website"
               imageSrc="./project2.png"
               projectLink="https://sougna.vercel.app/"
-              description="An engaging e-commerce platform crafted with Next.js and Tailwind CSS. Integrates Firebase for seamless user authentication, secure transactions, and dynamic product management. Enjoy a smooth shopping experience with responsive design and real-time updates."
+              description={`Embark on a delightful shopping journey with our E-commerce Website! Meticulously crafted with Next.js and Tailwind CSS, this platform offers a diverse catalog of products for every taste. The seamless integration of Firebase ensures secure user authentication, enabling a personalized shopping experience. Real-time updates and dynamic product management keep the catalog up-to-date, creating an interactive and engaging e-commerce space. Experience the future of online shopping with our feature-rich and responsive platform.`}
             />
           </div>
         </div>
@@ -73,7 +73,7 @@ const Projects = () => {
             title="Volunteer Events Website"
             imageSrc="./project3.png"
             projectLink="https://pebble-work.vercel.app/"
-            description="Connects volunteers with meaningful opportunities. Built using Next.js and Tailwind CSS, this project leverages Firebase for efficient data storage and retrieval. The site provides an intuitive interface for users to discover and engage in various volunteer events, fostering a sense of community and social impact."
+            description={`Ignite social change with our Volunteer Events Website! This impactful platform, powered by Next.js and Tailwind CSS, connects passionate individuals with meaningful volunteering opportunities. Leveraging Firebase for efficient data storage and retrieval, the site provides an intuitive interface for users to discover and engage in various volunteer events. Foster a sense of community and social impact as you explore, sign up, and contribute to causes that matter. Join us in making the world a better place through this user-friendly and purpose-driven platform.`}
           />
         </div>
       </div>
