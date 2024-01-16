@@ -38,7 +38,7 @@ const ProjectCard = ({ title, imageSrc, projectLink, description }) => {
       </div>
       <motion.div
         animate={{ height: isHovered ? 200 : 0 }}
-        className=" text-[#7d0f9fed] bg-purple-200 font-serif overflow-y-scroll"
+        className=" text-[#7d0f9fed] bg-purple-200  font-serif overflow-y-scroll px-4 text-justify "
       >
         {description}
       </motion.div>
