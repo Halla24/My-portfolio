@@ -17,6 +17,9 @@ const TechStack = () => {
           <img src="./tech/github.png" alt="github" />
         </div>
         <div className="w-12 md:w-14 lg:w-18 animate-tech-stack">
+          <img src="./tech/wordpress.png" alt="wordpress" />
+        </div>
+        <div className="w-12 md:w-14 lg:w-18 animate-tech-stack">
           <img src="./tech/html.png" alt="html" />
         </div>
         <div className="w-12 md:w-14 lg:w-18 animate-tech-stack">
