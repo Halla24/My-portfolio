@@ -11,9 +11,9 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center max-w-full mx-auto px-20">
         <div className="mb-2 md:mb-0">
           <img
-            src="logo.png"
+            src="logoo.svg"
             alt="Logo"
-            className="max-w-full md:max-w-[120px]"
+            className="max-w-full md:max-w-[130px]"
           />
         </div>
 

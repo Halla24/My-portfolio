@@ -40,9 +40,9 @@ const Navbar = ({ aboutRef, techRef, projectRef, contactRef }) => {
     <div className="bg-purple-200 z-[9999] flex justify-between items-center h-16 max-w-full mx-auto px- text-purple-800 font-serif  ">
       <div className="flex overflow-hidden justify-center items-center h-full">
         <img
-          src="/logo.svg"
+          src="/logoo.svg"
           alt="Logo"
-          className="w-[140px] pt-8 object-contain mr-2 transform rotate-1"
+          className="w-[130px] pt-0 object-contain mr-2 transform rotate-1"
           style={{ imageRendering: "pixelated" }}
         />
       </div>
@@ -71,9 +71,9 @@ const Navbar = ({ aboutRef, techRef, projectRef, contactRef }) => {
         }
       >
         <img
-          src="/logo.svg"
+          src="/logoo.svg"
           alt="Logo"
-          className="w-40 h-40 m-4 object-contain"
+          className="w-40 h-40 m-0 object-contain"
           style={{ imageRendering: "pixelated" }}
         />
 
