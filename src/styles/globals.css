@@ -26,7 +26,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 * {
-  scrollbar-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.404);
+  scrollbar-color: linear-gradient(0deg, #e898ea 20%, #dc72b8 50%, #7e1ac1 91%);
   border-radius: 4px;
 }
 
@@ -36,13 +36,13 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background: linear-gradient(0deg, #dfb2fc 20%, #ed89cc 50%, #7e1ac1 91%);
+  background: linear-gradient(0deg, #e898ea 20%, #dc72b8 50%, #7e1ac1 91%);
   border-radius: 4px;
 
 }
 
 *::-webkit-scrollbar-track {
-  background-color: rgb(243 232 255);
+  background-color: rgb(203, 166, 242);
   border-radius: 4px;
 }
 
