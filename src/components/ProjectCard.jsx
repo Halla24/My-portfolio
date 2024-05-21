@@ -67,7 +67,7 @@ const Projects = () => {
               description={`Embark on a delightful shopping journey with our E-commerce Website! Meticulously crafted with Next.js and Tailwind CSS, this platform offers a diverse catalog of products for every taste. The seamless integration of Firebase ensures secure user authentication, enabling a personalized shopping experience. Real-time updates and dynamic product management keep the catalog up-to-date, creating an interactive and engaging e-commerce space. Experience the future of online shopping with our feature-rich and responsive platform.`}
             />
           </div>
-        </div>
+
         <div className="flex mx-auto mobileWidth items-center w-96 justify-center">
           <ProjectCard
             title="Volunteer Events Website"
@@ -83,6 +83,15 @@ const Projects = () => {
               projectLink="https://quiz-lang-land.vercel.app/"
               description={`COMING SOON!`}
             />
+          </div>
+          <div className="w-96 mobileWidth">
+            <ProjectCard
+              title="Portfolio Website"
+              imageSrc="./project5.png"
+              projectLink="https://hallahamidi.wordpress.com/"
+              description={`Halla's portfolio made with wordpress!`}
+            />
+          </div>
           </div>
       </div>
     </div>
