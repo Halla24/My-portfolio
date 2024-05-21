@@ -76,6 +76,14 @@ const Projects = () => {
             description={`Ignite social change with our Volunteer Events Website! This impactful platform, powered by Next.js and Tailwind CSS, connects passionate individuals with meaningful volunteering opportunities. Leveraging Firebase for efficient data storage and retrieval, the site provides an intuitive interface for users to discover and engage in various volunteer events. Foster a sense of community and social impact as you explore, sign up, and contribute to causes that matter. Join us in making the world a better place through this user-friendly and purpose-driven platform.`}
           />
         </div>
+        <div className="w-96 mobileWidth">
+            <ProjectCard
+              title="Languages Website"
+              imageSrc="./project4.png"
+              projectLink="https://quiz-lang-land.vercel.app/"
+              description={`COMING SOON!`}
+            />
+          </div>
       </div>
     </div>
   );

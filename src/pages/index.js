@@ -51,7 +51,7 @@ function Home() {
           aboutRef={aboutRef}
           techRef={techRef}
           projectRef={projectRef}
-          contactRef={contactRef}
+          contactRef={contactRef}np
         />
         <ButterflyAnimation />
         <div className="min-h-screen">
